@@ -235,11 +235,8 @@ body {
 }
 
 @media (max-width: 768px) {
-    .navigation {
-        display: none;
-    }
     .header {
-        justify-content: center; 
+        flex-direction: column;
     }
     .intro-section,
     .second-section {
